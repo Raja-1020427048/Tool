@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .upload-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .upload-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .upload-btn:hover {
+    background-color: #218838;
+  }
+  
+  .compression-level {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #compressionRange {
+    width: 80%;
+    max-width: 300px;
+  }
+  
+  .preview-section {
+    text-align: center;
+  }
+  
+  #imagePreview {
+    margin: 20px auto;
+    max-width: 100%;
+  }
+  
+  #imagePreview img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #downloadBtn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #downloadBtn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .ad-section {
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
